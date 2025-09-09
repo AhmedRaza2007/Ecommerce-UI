@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce UI</title>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg-black text-[#FAFAFA] text-sm flex justify-center items-center px-4 py-3 relative">
+  <p>
+    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
+    <a href="#" class="underline ml-1">ShopNow</a>
+  </p>
+  <select class="bg-black text-white absolute right-4">
+    <option>English</option>
+    <option>Urdu</option>
+  </select>
+</div>
+
+<header class="container mx-auto">
+  <nav class="flex justify-between items-center px-6 py-4">
+    <div class="text-2xl font-bold   text-black">Exclusive</div>
+
+    <ul class="hidden md:flex gap-6 font-medium">
+      <li><a href="#" class="hover:underline text-black">Home</a></li>
+      <li><a href="#" class="hover:underline text-black">Contact</a></li>
+      <li><a href="#" class="hover:underline text-black">About</a></li>
+      <li><a href="#" class="hover:underline text-black">Sign Up</a></li>
+    </ul>
+
+    <div class="flex items-center gap-4">
+      <div class="relative hidden sm:block bg-[#F5F5F5] border rounded-md border-[#F5F5F5] text-black">
+        <input type="text" placeholder="What are you looking for?" 
+               class="px-5 py-2 w-74"/>
+        <i class="fa-solid fa-magnifying-glass absolute right-4 top-3.5 text-black"></i>
+      </div>
+      <i class="fa-regular fa-heart text-black"></i>
+      <i class="fa-solid fa-cart-shopping text-black"></i>
+      <button class="md:hidden">
+        <i class="fa-solid fa-bars text-black"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<div class="border-b border-[#B3B3B3]"></div>
+  <section class="flex container mx-auto px-6 lg:px-0">
+<aside class="hidden md:block w-64 border-r px-6 py-4 lg:py-10">
+  <ul class="space-y-2 text-black font-medium">
+    <li>
+      <button class="w-full flex justify-between items-center lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Woman's Fashion 
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </li>
+    <li>
+      <button class="w-full flex justify-between items-center lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Men's Fashion 
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Electronics
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Home & Lifestyle
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Medicine
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Sports & Outdoor
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Baby's & Toys
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Groceries & Pets
+      </button>
+    </li>
+    <li>
+      <button class="w-full text-left lg:px-0 px-3 py-2 rounded-md hover:bg-gray-100 transition">
+        Health & Beauty
+      </button>
+    </li>
+  </ul>
+</aside>
+
+
+    <div class="flex-1 p-4 lg:py-10">
+      <div class="bg-black text-white rounded-md p-8 items-center grid grid-cols-1 md:grid-cols-2">
+        <div class="px-6 lg:px-10">
+            <div class="flex items-center gap-6 mb-5">
+                <i class="fa-brands fa-apple text-5xl"></i> 
+              <p class="text-base text-[#FAFAFA]">iPhone 14 Series</p>
+            </div>
+          <h1 class="text-5xl font-bold mb-6 lg:w-[294px] leading-[61px]">Up to 10% off Voucher</h1>
+          <button class="py-2 items-center">
+            <a href="#" class=" text-[#FAFAFA] hover:text-[#DB4444] pb-2 border-b text-base font-medium">
+            Shop Now <span class="text-lg pl-2"><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+          </button>
+        </div>
+        <img src="./img/hero-phone-img.svg" 
+             alt="iPhone"/>
+      </div>
+
+      <div class="flex justify-center mt-4 space-x-2">
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+        <span class="w-3 h-3 bg-red-500 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+        <span class="w-3 h-3 bg-gray-400 rounded-full"></span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
