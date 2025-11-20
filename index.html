@@ -1,123 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ecommerce UI</title>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/ca86787c55.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
 
-<div class="bg-black text-[#FAFAFA] text-sm flex justify-center items-center px-4 py-3 relative">
-  <p>
-    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
-    <a href="#" class="underline ml-1">ShopNow</a>
-  </p>
-  <select class="bg-black text-white absolute right-4">
-    <option>English</option>
-    <option>Urdu</option>
-  </select>
-</div>
+  <div class="bg-black text-[#FAFAFA] text-sm flex justify-center items-center px-4 py-3 relative">
+    <p>
+      Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+      <a href="#" class="underline ml-1">ShopNow</a>
+    </p>
+    <select class="bg-black text-white absolute right-4">
+      <option>English</option>
+      <option>Urdu</option>
+    </select>
+  </div>
 
-<header class="container mx-auto">
-  <nav class="flex justify-between items-center px-6 py-4">
-    <div class="text-2xl font-bold   text-black">Exclusive</div>
+  <header class="container mx-auto">
+    <nav class="flex justify-between items-center px-6 py-4">
+      <div class="text-2xl font-bold   text-black">Exclusive</div>
 
-    <ul class="hidden md:flex gap-6 font-medium">
-      <li><a href="#" class="hover:underline text-black">Home</a></li>
-      <li><a href="#" class="hover:underline text-black">Contact</a></li>
-      <li><a href="#" class="hover:underline text-black">About</a></li>
-      <li><a href="#" class="hover:underline text-black">Sign Up</a></li>
-    </ul>
+      <ul class="hidden md:flex gap-6 font-medium">
+        <li><a href="#" class="hover:underline text-black">Home</a></li>
+        <li><a href="#" class="hover:underline text-black">Contact</a></li>
+        <li><a href="#" class="hover:underline text-black">About</a></li>
+        <li><a href="#" class="hover:underline text-black">Sign Up</a></li>
+      </ul>
 
-    <div class="flex items-center gap-4">
-      <div class="relative hidden sm:block bg-[#F5F5F5] border rounded-md border-[#F5F5F5] text-black">
-        <input type="text" placeholder="What are you looking for?" 
-               class="px-5 py-2 w-74"/>
-        <i class="fa-solid fa-magnifying-glass absolute right-4 top-3.5 text-black"></i>
+      <div class="flex items-center gap-4">
+        <div class="relative hidden sm:block bg-[#F5F5F5] border rounded-md border-[#F5F5F5] text-black">
+          <input type="text" placeholder="What are you looking for?" class="px-5 py-2 w-74" />
+          <i class="fa-solid fa-magnifying-glass absolute right-4 top-3.5 text-black"></i>
+        </div>
+        <i class="fa-regular fa-heart text-black"></i>
+        <i class="fa-solid fa-cart-shopping text-black"></i>
+        <button class="md:hidden">
+          <i class="fa-solid fa-bars text-black"></i>
+        </button>
       </div>
-      <i class="fa-regular fa-heart text-black"></i>
-      <i class="fa-solid fa-cart-shopping text-black"></i>
-      <button class="md:hidden">
-        <i class="fa-solid fa-bars text-black"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-<div class="border-b border-[#B3B3B3]"></div>
+    </nav>
+  </header>
+  <div class="border-b border-[#B3B3B3]"></div>
   <section class="flex container mx-auto px-6 lg:px-0">
-<aside class="hidden md:block w-64 border-r border-[#B3B3B3] px-6 py-4 lg:py-10">
-  <ul class="space-y-3 text-black font-medium">
-    <li>
-      <button class="w-full flex justify-between items-center lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Woman's Fashion 
-        <i class="fa-solid fa-chevron-right"></i>
-      </button>
-    </li>
-    <li>
-      <button class="w-full flex justify-between items-center lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Men's Fashion 
-        <i class="fa-solid fa-chevron-right"></i>
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Electronics
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Home & Lifestyle
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Medicine
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Sports & Outdoor
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Baby's & Toys
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Groceries & Pets
-      </button>
-    </li>
-    <li>
-      <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
-        Health & Beauty
-      </button>
-    </li>
-  </ul>
-</aside>
+    <aside class="hidden md:block w-64 border-r border-[#B3B3B3] px-6 py-4 lg:py-10">
+      <ul class="space-y-3 text-black font-medium">
+        <li>
+          <button
+            class="w-full flex justify-between items-center lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Woman's Fashion
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </li>
+        <li>
+          <button
+            class="w-full flex justify-between items-center lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Men's Fashion
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Electronics
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Home & Lifestyle
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Medicine
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Sports & Outdoor
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Baby's & Toys
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Groceries & Pets
+          </button>
+        </li>
+        <li>
+          <button class="w-full text-left lg:px-0 px-3 py-1 rounded-md hover:bg-gray-100 transition">
+            Health & Beauty
+          </button>
+        </li>
+      </ul>
+    </aside>
 
     <div class="flex-1 p-4 lg:py-10 relative">
       <div class="bg-black text-white rounded-md p-8 items-center grid grid-cols-1 md:grid-cols-2">
         <div class="px-6 lg:px-10">
-            <div class="flex items-center gap-6 mb-5">
-                <i class="fa-brands fa-apple text-5xl"></i> 
-              <p class="text-base text-[#FAFAFA]">iPhone 14 Series</p>
-            </div>
+          <div class="flex items-center gap-6 mb-5">
+            <i class="fa-brands fa-apple text-5xl"></i>
+            <p class="text-base text-[#FAFAFA]">iPhone 14 Series</p>
+          </div>
           <h1 class="text-5xl font-bold mb-6 lg:w-[294px] leading-[61px]">Up to 10% off Voucher</h1>
           <button class="py-2 items-center">
             <a href="#" class=" text-[#FAFAFA] hover:text-[#DB4444] pb-2 border-b text-base font-medium">
-            Shop Now <span class="text-lg pl-2"><i class="fa-solid fa-arrow-right"></i></span>
-          </a>
+              Shop Now <span class="text-lg pl-2"><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
           </button>
         </div>
-        <img src="./img/hero-phone-img.svg" 
-             alt="iPhone"/>
+        <img src="./img/hero-phone-img.svg" alt="iPhone" />
       </div>
 
       <div class="flex justify-center mt-4 space-x-2 absolute top-[368px] left-[436px]">
@@ -131,78 +134,274 @@
   </section>
 
 
-<section class="container mx-auto my-10">
-   <div class="items-center px-6 py-4">
-    
-    <div class="flex items-center space-x-4">
-      <div class="w-4 h-9 bg-red-600 rounded"></div>
-      <h2 class="text-red-600 font-semibold text-lg">Today's</h2>
-    </div>
+  <section class="container mx-auto my-10">
+    <div class="items-center px-6 py-4">
 
-    <div class="flex-1 flex justify-between items-center mt-4">
-    <div class="flex items-center space-x-10">
-      <div>
-        <h4 class="font-semibold lg:text-4xl text-xl">Flash Sales</h4>
-      </div>
-        <div class="pb-3">
-          <img src="./img/time-group.svg" alt="">
-        </div>
-    </div>
-
-    <!-- Right Navigation -->
-    <div class="flex space-x-2">
-      <button class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 shadow hover:bg-gray-200">
-        ←
-      </button>
-      <button class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 shadow hover:bg-gray-200">
-        →
-      </button>
-    </div>
-    </div>
-
-  </div>
-  
- <div class="flex justify-between items-center px-6 py-6">
-    <h2 class="text-xl font-bold relative">
-      <span class="text-red-600">Today’s</span>
-      <span class="absolute left-0 -bottom-1 w-12 h-1 bg-red-600 rounded"></span>
-    </h2>
-
-    <div class="flex gap-2">
-      <button class="w-10 h-10 flex items-center justify-center rounded-full border hover:bg-gray-100">
-        <i data-feather="chevron-left"></i>
-      </button>
-      <button class="w-10 h-10 flex items-center justify-center rounded-full border hover:bg-gray-100">
-        <i data-feather="chevron-right"></i>
-      </button>
-    </div>
-  </div>
-
-  <section class="max-w-7xl mx-auto px-6 py-10">
-    <h2 class="text-2xl font-bold mb-6">Featured Products</h2>
-
-    <div class="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory">
-
-      <div class="relative bg-white w-68 ">
-        <img src="./img/havit-hv-g92-gamepad.svg" class="object-contain">
-        <div class="p-4">
-          <p class="text-red-500 font-semibold mb-2">$120</p>
-          <div class="flex text-yellow-400">★★★★★</div>
-        </div>
+      <div class="flex items-center space-x-4">
+        <div class="w-4 h-9 bg-red-600 rounded"></div>
+        <h2 class="text-red-600 font-semibold text-lg">Today's</h2>
       </div>
 
-      <div class="relative bg-white rounded-xl shadow-md w-64 flex-shrink-0 snap-start">
-        <span class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded">-35%</span>
-        <img src="https://via.placeholder.com/300x200/3333ff/ffffff?text=Keyboard" class="rounded-t-xl w-full h-40 object-contain p-4">
-        <div class="p-4">
-          <p class="text-red-500 font-semibold mb-2">$960</p>
-          <div class="flex text-yellow-400">★★★★★</div>
+      <div class="flex-1 flex justify-between items-center mt-4">
+        <div class="flex items-center space-x-10">
+          <div>
+            <h4 class="font-semibold lg:text-4xl text-xl">Flash Sales</h4>
+          </div>
+          <div class="pb-3">
+            <img src="./img/time-group.svg" alt="">
+          </div>
+        </div>
+        <div class="space-x-3 hidden md:flex">
+          <button id="slideLeft" class="p-3 bg-gray-100 rounded-full shadow hover:bg-gray-200">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button id="slideRight" class="p-3 bg-gray-100 rounded-full shadow hover:bg-gray-200">
+            <i class="fas fa-chevron-right"></i>
+          </button>
         </div>
       </div>
-
-
     </div>
-  </section> 
-</section>
+    <div class="max-w-7xl mx-auto px-4 py-10">
+      <h2 class="text-2xl font-semibold mb-6 text-red-500">Today's Deals</h2>
+
+      <div id="slider" class="flex space-x-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 scrollbar-hide">
+
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <!-- Discount badge -->
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-40%</span>
+
+            <!-- Icons -->
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart text-gray-700"></i>
+              </button>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+
+            <!-- Product image -->
+            <img src="./img/havit-hv.svg" alt="HAVIT HV-G92 Gamepad" class="object-contain h-40 mx-auto mt-4">
+          </div>
+
+          <!-- Product details -->
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">HAVIT HV-G92 Gamepad</h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$120</p>
+              <p class="text-gray-400 line-through font-medium text-base">$160</p>
+            </div>
+            <div class="flex items-center mt-2 text-[#FFAD33] text-sm">
+              <span class="space-x-1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              <span class="text-gray-500 ml-2 font-semibold text-sm">(88)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-40%</span>
+
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart text-gray-700"></i>
+              </button>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+
+            <img src="./img/wired-keyboard .svg" alt="AK-900 Wired Keyboard" class="object-contain h-40 mx-auto mt-4">
+          </div>
+
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">AK-900 Wired Keyboard</h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$960</p>
+              <p class="text-gray-400 line-through font-medium text-base">$1160</p>
+            </div>
+            <div class="flex items-center mt-2 text-[#FFAD33] text-sm">
+              <span class="space-x-1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              <span class="text-gray-500 ml-2 font-semibold text-sm">(75)</span>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-40%</span>
+
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart te px-3xt-gray-700"></i>
+              </button>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+
+            <img src="./img/gaming-monitor.svg" alt="IPS LCD Gaming Monitor" class="object-contain h-40 mx-auto mt-4">
+          </div>
+
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">IPS LCD Gaming Monitor</h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$370</p>
+              <p class="text-gray-400 line-through font-medium text-base">$400</p>
+            </div>
+            <div class="flex items-center mt-2 text-[#FFAD33] text-sm">
+              <span class="space-x-1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              <span class="text-gray-500 ml-2 font-semibold text-sm">(99)</span>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-40%</span>
+
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart te px-3xt-gray-700"></i>
+              </button>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+
+            <img src="./img/comfort-chair.svg" alt="S-Series Comfort Chair" class="object-contain h-40 mx-auto mt-4">
+          </div>
+
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">S-Series Comfort Chair </h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$375</p>
+              <p class="text-gray-400 line-through font-medium text-base">$400</p>
+            </div>
+            <div class="flex items-center mt-2 text-[#FFAD33] text-sm">
+              <span class="space-x-1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+              <span class="text-gray-500 ml-2 font-semibold text-sm">(99)</span>
+            </div>
+          </div>
+        </div>
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-35%</span>
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart text-gray-700"></i>
+              </bu px-3tton>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+            <img src="./img/cpu-cooler.svg" alt="RGB liquid CPU Cooler" class="object-contain h-40 mx-auto mt-4">
+          </div>
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">RGB liquid CPU Cooler</h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$160</p>
+              <p class="text-gray-400 line-through font-medium text-base">$170</p>
+            </div>
+            <div class="flex items-center mt-1 text-yellow-400 text-sm">
+              <span>★★★★★</span>
+              <span class="text-gray-500 ml-2 font-semibold text-sm">(120)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-25%</span>
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart text-gray-700"></i>
+              </button>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+            <img src="./img/havit-hv.svg" class="object-contain h-40 mx-auto mt-4">
+          </div>
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">Gaming Headset</h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$320</p>
+              <p class="text-gray-400 line-through font-medium text-base">$400</p>
+            </div>
+            <div class="flex items-center mt-1 text-yellow-400 text-sm">
+              <span>★★★★★</span>
+              <span class=text-gray-500 ml-2 font-semibold text-sm>(64)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="min-w-[270px] mr-4 bg-white hover:shadow-lg rounded-xl transition relative snap-start">
+          <div class="px-6 py-6 bg-[#F5F5F5]">
+            <span
+              class="absolute top-3 left-3 bg-red-500 text-white text-xs px-2 py-1 rounded-md font-semibold">-30%</span>
+            <div class="absolute top-3 right-2 flex flex-col space-y-2">
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-heart text-gray-700"></i>
+              </button>
+              <button class="bg-white p-2 px-3 rounded-full shadow hover:bg-gray-100">
+                <i class="far fa-eye text-gray-700"></i>
+              </button>
+            </div>
+            <img src="./img/havit-hv.svg" class="object-contain h-40 mx-auto mt-4">
+          </div>
+          <div class="mt-3 px-2 pb-5">
+            <h3 class="text-base font-medium text-gray-800 mb-2">Curved Gaming Monitor</h3>
+            <div class="flex items-center space-x-2">
+              <p class="text-[#DB4444] font-medium text-base">$370</p>
+              <p class="text-gray-400 line-through font-medium text-base">$530</p>
+            </div>
+            <div class="flex items-center mt-1 text-yellow-400 text-sm">
+              <span>★★★★★</span>
+              <span class=text-gray-500 ml-2 font-semibold text-sm>(150)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script>
+    const slider = document.getElementById('slider');
+    document.getElementById('slideLeft').onclick = () => slider.scrollBy({ left: -300, behavior: 'smooth' });
+    document.getElementById('slideRight').onclick = () => slider.scrollBy({ left: 300, behavior: 'smooth' });
+  </script>
+
+  <!-- Hide scrollbar -->
+  <style>
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script>
+    const slider = document.getElementById('slider');
+    document.getElementById('slideLeft').onclick = () => slider.scrollBy({ left: -300, behavior: 'smooth' });
+    document.getElementById('slideRight').onclick = () => slider.scrollBy({ left: 300, behavior: 'smooth' });
+  </script>
+
+  <style>
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  </style> -->
 </body>
+
 </html>
