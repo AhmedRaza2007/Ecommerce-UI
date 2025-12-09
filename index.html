@@ -411,7 +411,7 @@
             border border-[#00000030] rounded 
             flex flex-col items-center justify-center 
             transition duration-200">
-              <img src="/img/category-smartwatch.svg" class="mb-3 transition duration-200
+              <img src="/img/category-cellphone.svg" class="mb-3 transition duration-200
                 group-hover:invert group-hover:brightness-200" />
               <p class="text-lg">Phone</p>
             </div>
@@ -1039,74 +1039,173 @@
     </div>
   </section>
   <section>
-      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div class="relative bg-black rounded-xl overflow-hidden">
+        <img src="./img/playstation-5.svg" class="object-cover" />
+        <div class="absolute bottom-9 left-9">
+          <h2 class="text-2xl font-semibold text-white pb-4 ">PlayStation 5</h2>
+          <p class="text-sm font-normal text-[#FAFAFA] lg:w-[266px]">
+            Black and White version of the PS5 coming out on sale.
+          </p>
+          <button>
+            <a href="#" class="inline-block mt-2 border-b font-medium border-white text-white">
+              Shop Now
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="relative bg-black rounded-xl overflow-hidden">
+          <img src="./img/women’s-collections.svg" class="object-cover" />
+          <div class="absolute bottom-6 left-6">
+            <h2 class="text-xl font-semibold text-white pb-3">Women’s Collections</h2>
+            <p class="text-sm font-normal text-[#FAFAFA] pb-3 lg:w-[255px]">
+              Featured woman collections that give you another vibe.
+            </p>
+            <button>
+              <a href="#" class="inline-block mt-2 border-b font-medium border-white text-white">
+                Shop Now
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="relative overflow-hidden">
+            <img src="./img/speakers.svg" class="object-cover lg:w-[285px]" />
+            <div class="absolute bottom-4 left-4">
+              <h2 class="text-xl font-semibold text-white">Speakers</h2>
+              <p class="text-sm font-normal text-[#FAFAFA] py-2">Amazon wireless speakers</p>
+              <a href="#" class="inline-block border-b font-medium text-white border-white text-sm ">
+                Shop Now
+              </a>
+            </div>
+          </div>
+          <div class="relative overflow-hidden">
+            <img src="./img/perfume.svg" class="object-cover lg:w-[285px]" />
+            <div class="absolute bottom-4 left-4">
+              <h2 class="text-xl font-semibold text-white">Perfume</h2>
+              <p class="text-sm font-normal text-[#FAFAFA] py-2">GUCCI INTENSE OUD EDP</p>
+              <a href="#" class="inline-block border-b font-medium text-white border-white text-sm ">
+                Shop Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mx-auto flex justify-center gap-25 lg:py-20 py-10 flex-wrap">
 
-    <div class="relative bg-black rounded-xl overflow-hidden">
-      <img src="./img/playstation-5.svg" class="object-cover" />
-
-      <div class="absolute bottom-9 left-9">
-        <h2 class="text-2xl font-semibold text-white pb-4 ">PlayStation 5</h2>
-        <p class="text-sm font-normal text-[#FAFAFA] lg:w-[266px]">
-          Black and White version of the PS5 coming out on sale.
+      <div class="flex flex-col items-center">
+        <div class="mb-3 flex items-center justify-center">
+          <img src="./img/services.svg" alt="services">
+        </div>
+        <p class="text-xl font-semibold py-2 text-[#000000]">FREE AND FAST DELIVERY</p>
+        <p class="text-sm font-normal text-gray-400 text-center text-[#000000]">Free delivery for all orders over $140
         </p>
-        <button>
-          <a href="#" class="inline-block mt-2 border-b font-medium border-white text-white">
-          Shop Now
-        </a>
-        </button>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <div class="flex items-center mb-3 justify-center">
+          <img src="./img/headphone.svg" alt="headphone">
+        </div>
+        <p class="text-xl font-semibold py-2 text-[#000000]">24/7 CUSTOMER SERVICE</p>
+        <p class="text-sm font-normal text-gray-400 text-center text-[#000000]">Friendly 24/7 customer support</p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <div class="flex items-center mb-3 justify-center">
+          <img src="./img/click-right.svg" alt="click-right">
+        </div>
+        <p class="text-xl font-semibold py-2 text-[#000000]">MONEY BACK GUARANTEE</p>
+        <p class="text-sm font-normal text-gray-400 text-center text-[#000000]">We return money within 30 days</p>
+      </div>
+
+    </div>
+
+  </section>
+  <footer class="bg-[#000000] text-white pt-16 pb-6 border-t border-gray-800">
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+
+    <!-- 1. Subscribe -->
+    <div>
+      <h2 class="text-2xl text-[#FAFAFA] font-bold mb-4">Exclusive</h2>
+      <p class="font-medium text-[#FAFAFA] text-lg mb-4">Subscribe</p>
+      <p class="text-[#FAFAFA] text-base mb-4">
+        Get 10% off your first order
+      </p>
+
+      <div class="flex items-center border border-[#FAFAFA] rounded px-3 py-3">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="bg-transparent outline-none text-sm"
+        />
+        <i class="fa-regular fa-paper-plane fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
       </div>
     </div>
 
-    <div class="flex flex-col gap-4">
+    <div>
+      <h3 class="font-medium text-xl text-[#FAFAFA] mb-5">Support</h3>
+      <p class="text-base font-normal text-[#FAFAFA] hover:text-[#DB4444] leading-6 mb-4">
+        111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+      </p>
+      <p class="text-base text-[#FAFAFA] hover:text-[#DB4444] mb-4"><a href="#">exclusive@gmail.com</a></p>
+      <p class="text-base text-[#FAFAFA] hover:text-[#DB4444]"><a href="#">+88015-88888-9999</a></p>
+    </div>
 
-      <div class="relative bg-black rounded-xl overflow-hidden">
-        <img src="./img/women’s-collections.svg" class="object-cover" />
+    <div>
+      <h3 class="font-medium text-xl text-[#FAFAFA] mb-5">Account</h3>
+      <ul class="space-y-4 text-[#FAFAFA] text-base">
+        <li><a href="#" class="hover:text-[#DB4444]">My Account</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">Login / Register</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">Cart</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">Wishlist</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">Shop</a></li>
+      </ul>
+    </div>
 
-        <div class="absolute bottom-6 left-6">
-          <h2 class="text-xl font-semibold text-white pb-3">Women’s Collections</h2>
-          <p class="text-sm font-normal text-[#FAFAFA] pb-3 lg:w-[255px]">
-            Featured woman collections that give you another vibe.
-          </p>
-           <button>
-          <a href="#" class="inline-block mt-2 border-b font-medium border-white text-white">
-          Shop Now
-        </a>
-        </button>
+    <div>
+      <h3 class="font-semibold text-xl text-[#FAFAFA] mb-5">Quick Link</h3>
+      <ul class="space-y-4 text-[#FAFAFA] text-base">
+        <li><a href="#" class="hover:text-[#DB4444]">Privacy Policy</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">Terms Of Use</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">FAQ</a></li>
+        <li><a href="#" class="hover:text-[#DB4444]">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-semibold text-xl text-[#FAFAFA] mb-5">Download App</h3>
+      <p class="text-xs font-medium text-[#FAFAFA] mb-4">
+        Save $3 with App New User Only
+      </p>
+
+      <div class="flex items-center gap-3 mb-4">
+        <a href="#"><img src="./img/qr-code.svg" /></a>
+
+        <div class="flex flex-col gap-2">
+          <a href="#"><img src="./img/googleplay.svg" /></a>
+          <a href="#"><img src="./img/appstore.svg"/></a>
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-
-        <div class="relative overflow-hidden">
-          <img src="./img/speakers.svg" class="object-cover lg:w-[285px]" />
-
-          <div class="absolute bottom-4 left-4">
-            <h2 class="text-xl font-semibold text-white">Speakers</h2>
-            <p class="text-sm font-normal text-[#FAFAFA] py-2">Amazon wireless speakers</p>
-            <a href="#" class="inline-block border-b font-medium text-white border-white text-sm ">
-              Shop Now
-            </a>
-          </div>
-        </div>
-
-        <div class="relative overflow-hidden">
-          <img src="./img/perfume.svg" class="object-cover lg:w-[285px]" />
-
-          <div class="absolute bottom-4 left-4">
-            <h2 class="text-xl font-semibold text-white">Perfume</h2>
-            <p class="text-sm font-normal text-[#FAFAFA] py-2">GUCCI INTENSE OUD EDP</p>
-            <a href="#" class="inline-block border-b font-medium text-white border-white text-sm ">
-              Shop Now
-            </a>
-          </div>
-        </div>
-
+      <div class="flex gap-10 text-[#FFFFFF]">
+        <a href="#" class="hover:text-[#DB4444] text-xl"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-[#DB4444] text-xl"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="hover:text-[#DB4444] text-xl"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="hover:text-[#DB4444] text-xl"><i class="fa-brands fa-linkedin-in"></i></a>
       </div>
-
     </div>
 
   </div>
-  </section>
+
+  <div class="border-t border-gray-800 mt-12 pt-4 text-center text-gray-400 text-base">
+Copyright Rimel 2022. All right reserved </div>
+
+</footer>
 
   <script>
     const slider = document.getElementById('slider');
