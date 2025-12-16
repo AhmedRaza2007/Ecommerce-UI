@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Checkout</title>
+</head>
+
+<body>
+    <header class="container mx-auto">
+        <nav class="flex justify-between items-center px-6 py-4">
+            <div class="text-2xl font-bold   text-black">Exclusive</div>
+
+            <ul class="hidden md:flex gap-6 font-medium">
+                <li><a href="index.html" class="hover:underline text-black">Home</a></li>
+                <li><a href="contact.html" class="hover:underline text-black">Contact</a></li>
+                <li><a href="about.html" class="hover:underline text-black">About</a></li>
+                <li><a href="sign-up.html" class="hover:underline text-black">Sign Up</a></li>
+            </ul>
+
+            <div class="flex items-center gap-4">
+                <div class="relative hidden sm:block bg-[#F5F5F5] border rounded-md border-[#F5F5F5] text-black">
+                    <input type="text" placeholder="What are you looking for?" class="px-5 py-2 w-74" />
+                    <i class="fa-solid fa-magnifying-glass absolute right-4 top-3.5 text-black"></i>
+                </div>
+                <a href="#"><i class="fa-regular fa-heart text-black hover:text-[#DB4444] text-lg"></i></a>
+                <a href="#shopping-cart"><i
+                        class="fa-solid fa-cart-shopping text-black text-lg hover:text-[#DB4444]"></i></a>
+                <a href="account.html"><i class="fa-solid fa-user text-black hover:text-[#DB4444] text-lg"></i></a>
+                <button class="md:hidden">
+                    <i class="fa-solid fa-bars text-black"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section class="container mx-auto mt-10 mb-20">
+        <div class="flex px-6 py-12 justify-between mx-auto container">
+            <div class="text-base text-gray-500 space-x-3 ">
+                <a href="index.html" class="hover:text-black">Home</a> / <span class="hover:text-black"><a
+                        href="about.html">About</a></span> / <span class="hover:text-black"><a
+                        href="account.html">Account</a></span> /<span class="hover:text-black"><a
+                        href="checkout.html">Checkout</a></span>
+            </div>
+            <div>
+                <h6 class="text-sm font-regular text-[#000000]">Welcome! <span class="text-[#DB4444]">Md Rimel</span>
+                </h6>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 px-6 lg:mt-8">
+
+            <div>
+                <h2 class="text-3xl font-medium mb-8">Billing Details</h2>
+
+                <div class="space-y-6">
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Country*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">First Name*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Last Name*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Company Name</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Street Address*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Street Address*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Street Address*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Apartment, floor, etc. (optional)</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Town / City*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Apartment, floor, etc. (optional)</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Town / City*</label>
+                        <input type="text" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-medium text-[#999999]">Email Address*</label>
+                        <input type="email" class="w-full bg-gray-100 p-4 rounded" />
+                    </div>
+
+                    <label class="flex items-center gap-2 text-base text-[#000000] cursor-pointer">
+                        <input type="checkbox" checked class="accent-red-500" />
+                        Save this information for faster check-out next time
+                    </label>
+                </div>
+            </div>
+
+            <div class="space-y-6 lg:py-24 px-4">
+
+                <div class="space-y-4 lg:pr-9">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-4">
+                            <img src="./img/gamepad.svg" />
+                            <span class="text-base">LCD Monitor</span>
+                        </div>
+                        <span>$650</span>
+                    </div>
+
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-4">
+                            <img src="./img/monitor-cart-small.svg" />
+                            <span class="text-base">H1 Gamepad</span>
+                        </div>
+                        <span>$1100</span>
+                    </div>
+                </div>
+
+                <div class="space-y-4 text-base lg:pr-9 font-medium text-[#000000]">
+                    <div class="flex justify-between">
+                        <span>Subtotal:</span>
+                        <span>$1750</span>
+                    </div>
+                    <hr class="border-gray-300 text-xl" />
+                    <div class="flex justify-between">
+                        <span>Shipping:</span>
+                        <span>Free</span>
+                    </div>
+                    <hr class="border-gray-300 text-xl" />
+                    <div class="flex justify-between font-semibold">
+                        <span>Total:</span>
+                        <span>$1750</span>
+                    </div>
+                </div>
+                <div class="space-y-8">
+
+                    <div class="space-y-4">
+
+                        <div class="flex items-center justify-between font-medium lg:pr-9">
+                            <label class="flex items-center gap-3 cursor-pointer">
+                                <input type="radio" name="payment" class="w-5 h-5 accent-black">
+                                <span class="text-base text-[#000000]">Bank</span>
+                            </label>
+
+                            <div class="flex items-center gap-3">
+                                <img src="./img/bkash.svg" />
+                                <img src="./img/visa.svg"/>
+                                <img src="./img/mastercard.svg" />
+                                <img src="./img/nagad.svg" />
+                            </div>
+                        </div>
+
+                        <label class="flex items-center gap-3 font-medium cursor-pointer">
+                            <input type="radio" name="payment" checked class="w-5 h-5 accent-black">
+                            <span class="text-base text-[#000000]">Cash on delivery</span>
+                        </label>
+
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <input type="text" placeholder="Coupon Code"
+                            class="flex-1 border border-gray-400 rounded px-4 py-3 text-lg outline-none focus:border-black" />
+                        <button class="bg-[#DB4444] text-white px-8 py-3 rounded text-lg hover:opacity-90">
+                            Apply Coupon
+                        </button>
+                    </div>
+
+                    <button class="bg-[#DB4444] text-white px-10 py-3 rounded text-lg hover:opacity-90">
+                        Place Order
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
